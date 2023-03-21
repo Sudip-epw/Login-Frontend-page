@@ -70,3 +70,168 @@ body{
 }
 
 
+
+
+/* For Phones */
+
+@media(max-width:320px){
+    .container{
+        top: 25%;
+        left: 14%;
+    }
+    
+    .container h1{
+        width: 50%;
+        font-size: 22px;
+        border-bottom: 3.5px solid rgb(183, 35, 206);
+        margin-bottom: 12px;
+        padding: 8px 0;
+    }
+
+    .box{
+        border-bottom: 1.5px solid rgb(183, 35, 206);
+        margin:14px 0px;
+        padding: 3px 0;
+    }
+    .box input{
+        background: none;
+        width: 65%;
+        font-size: 13px;
+    }
+    
+    .box i{
+        font-size: 11px;
+        width: 15px;
+        padding: 0 8px;
+    }
+
+    .btn{
+        margin: 12px 0px;
+        padding: 3px 15px;
+        border-radius: 8px;
+        border: 1.5px solid rgb(183, 35, 206);
+        font-size: 12px;
+    }
+}
+
+@media(min-width: 321px) and (max-width:425px){
+        .container{
+        /* border: 5px solid red; */
+        color: white;
+        position: absolute;
+        top: 25%;
+        left: 19%;
+    }
+}
+
+@media(min-width: 426px) and (max-width: 550px){
+    .container{
+        top: 28%;
+        left: 28%;
+    }
+
+    .container h1{
+        width: 50%;
+        font-size: 35px;
+        margin-bottom: 10px;
+        padding: 8px 0;
+    }
+    .box{
+        margin:15px 0px;
+        padding: 3px 0;
+    }
+    .box input{
+        font-size: 14px;
+    }
+    
+    .box i{
+        width: 15px;
+        padding: 0 10px;
+        font-size: 13px;
+    }
+    
+    .btn{
+        margin: 12px 0px;
+        padding: 5px 17px;
+        font-size: 14px;
+    }
+}
+
+
+@media(min-width: 551px) and (max-width: 768px){
+    .container{
+        /* border: 5px solid red; */
+        color: white;
+        position: absolute;
+        top: 30%;
+        left: 28%;
+    }
+
+    .container h1{
+        width: 65%;
+        font-size: 45px;
+        margin-bottom: 22px;
+        padding: 12px 0;
+    }
+    .box{
+        width: 100%;
+        border-bottom: 2px solid rgb(183, 35, 206);
+        margin:25px 0px;
+        padding: 6px 0;
+    }
+    .box input{
+        font-size: 23px;
+        color: white;
+    }
+    
+    .box i{
+        width: 28px;
+        padding: 0 12px;
+        font-size: 19px;
+    }
+    
+    .btn{
+        margin: 17px 0px;
+        padding: 9px 28px;
+        font-size: 19px;
+    }
+}
+
+@media(min-width: 769px) and (max-width:1023px){
+    .container{
+        /* border: 5px solid red; */
+        color: white;
+        position: absolute;
+        top: 30%;
+        left: 24%;
+    }
+
+    .container h1{
+        width: 50%;
+        font-size: 52px;
+        margin-bottom: 25px;
+        padding: 15px 0;
+    }
+    .box{
+        width: 100%;
+        border-bottom: 2px solid rgb(183, 35, 206);
+        margin:28px 0px;
+        padding: 6px 0;
+    }
+    .box input{
+        font-size: 30px;
+        color: white;
+    }
+    
+    .box i{
+        width: 30px;
+        padding: 0 12px;
+        font-size: 24px;
+    }
+    
+    .btn{
+        margin: 20px 0px;
+        padding: 12px 32px;
+        font-size: 22px;
+    }
+}
